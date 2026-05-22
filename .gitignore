@@ -2,10 +2,7 @@
 build/
 
 # Gradle Build Files
-.gradle/buildOutputCleanup/
-.gradle/9.3.1/executionHistory/
-.gradle/9.3.1/fileHashes/
-.gradle/buildOutputCleanup/
+.gradle/*
 
 # Compiled class file
 *.class
