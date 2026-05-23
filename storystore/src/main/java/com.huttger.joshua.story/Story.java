@@ -1,4 +1,4 @@
-package com.example.accessingdatamysql;
+package com.huttger.joshua.story;
 
 import org.jspecify.annotations.Nullable;
 
@@ -8,14 +8,14 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity // This tells Hibernate to make a table out of this class
-public class User {
+public class Story {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private @Nullable Integer id;
 
-	private String name;
+	private String title;
 
-	private String email;
+	private String contents;
 
 	public Integer getId() {
 		return id;
@@ -25,19 +25,19 @@ public class User {
 		this.id = id;
 	}
 
-	public String getName() {
-		return name;
+	public String getTitle() {
+		return title;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setTitle(String title) {
+		this.title = title;
 	}
 
-	public String getEmail() {
-		return email;
+	public String getContents() {
+		return contents;
 	}
 
-	public void setEmail(String email) {
-		this.email = email;
+	public void setContents(String contents) {
+		this.contents = contents;
 	}
 }
