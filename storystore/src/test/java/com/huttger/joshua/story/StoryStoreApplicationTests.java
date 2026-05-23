@@ -1,4 +1,4 @@
-package com.example.accessingdatamysql;
+package com.huttger.joshua.story;
 
 import org.junit.jupiter.api.Test;
 import org.testcontainers.containers.MySQLContainer;
@@ -11,7 +11,7 @@ import org.springframework.boot.testcontainers.service.connection.ServiceConnect
 
 @Testcontainers
 @SpringBootTest
-class AccessingDataMysqlApplicationTests {
+class StoryStoreApplicationTests {
 
 	@Container
 	@ServiceConnection
