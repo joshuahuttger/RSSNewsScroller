@@ -4,6 +4,9 @@ build/
 # Gradle Build Files
 **/.gradle/
 
+#intellij files
+**/.idea/
+
 # Compiled class file
 *.class
 
