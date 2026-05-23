@@ -2,7 +2,7 @@
 build/
 
 # Gradle Build Files
-.gradle/*
+**/.gradle/
 
 # Compiled class file
 *.class
